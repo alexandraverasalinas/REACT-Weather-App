@@ -6,8 +6,8 @@ import "./Weather.css";
 export default function App() {
   return (
     <div className="App">
-      <h1> Weather App </h1>
-      <Weather />
+      <div className="container">
+      <Weather defaultCity="New York" />
 
         <footer>
           This project was coded by{" "}
@@ -27,7 +27,7 @@ export default function App() {
           </a>{" "}
           and{" "}
           <a
-            href="https://suspicious-beaver-111c4d.netlify.com/"
+            href="https://react-weather-app-avs.netlify.app"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -35,5 +35,6 @@ export default function App() {
           </a>
         </footer>
       </div>
+      </div>
   );
-}
+  }
